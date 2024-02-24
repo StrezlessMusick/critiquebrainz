@@ -36,3 +36,7 @@ sqlalchemy-dst==1.0.1
 markupsafe==2.1.1
 itsdangerous==2.1.2
 flask-shell-ipython
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+ipython>=7.16.3 # not directly required, pinned by Snyk to avoid a vulnerability
+prompt-toolkit>=3.0.13 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.15.0 # not directly required, pinned by Snyk to avoid a vulnerability
