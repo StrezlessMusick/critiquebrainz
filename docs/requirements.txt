@@ -2,3 +2,4 @@ Sphinx==5.0.2
 Pygments==2.7.4
 sphinxcontrib-httpdomain==1.8.0
 -r ../requirements.txt
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
