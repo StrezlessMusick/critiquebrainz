@@ -36,3 +36,4 @@ sqlalchemy-dst==1.0.1
 markupsafe==2.1.1
 itsdangerous==2.1.2
 flask-shell-ipython
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
